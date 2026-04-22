@@ -1,0 +1,12 @@
+     initComponents();
+        metro=Double.parseDouble(JOptionPane.showInputDialog("Digite un valor en metros: "));
+        
+        kilometro=metro/1000;
+        milla=metro* 0.000621371;
+        pies=metro *3.28084;
+        cem=metro*100;
+        jtxtKilo.setText(String.valueOf(kilometro));
+        jtxtKilo1.setText(String.valueOf(milla));
+        jtxtKilo2.setText(String.valueOf(cem));
+        jtxtKilo4.setText(String.valueOf(pies));
+    }
